@@ -31,13 +31,13 @@ const Navbar = () => {
             borderBottom: "3px solid #FF2625"
           }}
         >
-          Home
+          Главная
         </Link>
         <a
           href="#exercises"
           style={{ textDecoration: "none", color: "#3A1212" }}
         >
-          Exercises
+          Упражнения
         </a>
       </Stack>
     </Stack>
