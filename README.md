@@ -6,7 +6,7 @@
 ### Песочницы `codesandbox.io`
 
 
- `[Запуск]`(https://codesandbox.io/s/github/Sshesst/FitnessApp) 
+### [Запуск](https://codesandbox.io/s/github/Sshesst/FitnessApp) 
 
 
 <!-- ### `yarn test`
