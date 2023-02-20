@@ -5,6 +5,7 @@ import { exerciseOptions, fetchData } from "../utils/fetchData";
 
 const SearchExercises = () => {
   const [search, setSearch] = React.useState("");
+  const [exercises, setExercises] = React.useState([])
 
   const handleSearch = async () => {
     if (search) {
@@ -18,6 +19,8 @@ const SearchExercises = () => {
                || item.equipment.toLowerCase().includes(search)
                || item.bodyPart.toLowerCase().includes(search),
       );
+      setSearch('')
+      setExercises(searchedExercises)
     }
   };
 
