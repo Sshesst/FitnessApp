@@ -31,11 +31,12 @@ const HeroBanner = () => {
       <Typography fontWeight={600}
       color="#ff2625"
       sx={{
-        opacity: 0.1,
+        opacity: 0.2,
         display: {lg: 'block', xs: 'none'}
         }}
-        fontSize="200px">
-        Exercise
+        fontSize="60px"
+        p="20px 0">
+        Фитнесс-это здорово
       </Typography>
       <img src={HeroBannerImage} alt="Баннер" className="hero-banner-img"/>
     </Box>
